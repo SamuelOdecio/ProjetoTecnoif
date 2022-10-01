@@ -1,0 +1,287 @@
+/* GERAL */
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F2F2F2;
+}
+
+/* HEADER */
+/*=========================================*/
+/* Imagem do fundo do header */
+.banner {
+    width: 100%;
+    height: 512px;
+    background-image: url('../img/cabecalho.png');
+    background-position: center;
+    position: relative;
+}
+
+/* Caixa de titulo BOX */
+.box-container {
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    position: absolute;
+    right: 100px;
+    bottom: 250px;
+
+    /*background-color: aqua;*/
+}
+
+/* Background do BOX*/
+.box-background {
+    width: 100%;
+    height: 100%;
+    background-color: #262625;
+    opacity: .75;
+    position: relative;
+}
+
+/* Banner Title */
+.box-banner-title {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    color: #F2F2F2;
+    padding-top: 65px;
+}
+
+/* Titulo */
+.box-banner-title h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+/* Sub-Titulo */
+.box-banner-title p {
+    font-size: 20px;
+}
+
+/* Texto de boas vindas */
+.info-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 175px;
+}
+
+.info-background {
+    width: 100%;
+    height: 100%;
+    background-color: #F2F2F2;
+    opacity: .75;
+}
+
+.info-text {
+    position: absolute;
+    top: 40px;
+    padding-left: 5%;
+    width: 800px;
+}
+
+.info-text h2, info-text p {
+    color: #262625;
+}
+
+.info-text h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+/*=========================================*/
+/* SERVICOS OFERECIDOS */
+/*=========================================*/
+.services-container {
+    padding: 30px 10%;
+    padding-bottom: 0;
+}
+
+.box-service {
+    width: 100%;
+    height: 150px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.box-service:last-child {
+    margin-bottom: 0;
+} 
+
+.service-title {
+    width: 20%;
+    height: 150px;
+    background-color: blue;
+    float: left;/*rever documentação*/
+    text-align: center;
+    line-height: 150px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.service-title p {
+    padding-top: 35px;
+    color: #F2F2F2;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.service-description {
+    float: left;
+    width: 80%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.service-description h3 {
+    font-size: 26px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.service-description p {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+#consultoria-box {
+    background-color: #59352D;
+}
+
+#consultoria-title {
+    color: #59352D;
+}
+
+#empresa-box {
+    background-color: #734F30;
+}
+
+#empresa-title {
+    color: #734F30;
+}
+
+#design-box {
+    background-color: #8C2727;
+}
+
+#design-title {
+    color: #8C2727;
+}
+
+
+
+/*=========================================*/
+/* RODAPE */
+/*=========================================*/
+.footer-container {
+    background-image: url('../img/rodape.png');
+    background-position: center;
+}
+
+.about-container {
+    padding: 30px 10%;
+    position: relative;
+    clear: both;
+}
+
+.about-card {
+    width: 30%;
+    float: left;
+    padding: 30px;
+    background-color: #F2F2F2;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.middle-card {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.about-card i {
+    font-size: 50px;
+    color: #8C2727;
+}
+
+.about-card p {
+    margin-top: 50px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #8C2727;
+    text-align: justify;
+}
+
+footer {
+    clear: both;
+    height: 400px;
+    padding: 30px 10%;
+    position: relative;
+}
+
+.form-container {
+    width: 65%;
+    height: 350px;
+    position: relative;
+    display: block;
+}
+
+.form-background {
+    width: 100%;
+    height: 100%;
+    background-color: #F2F2F2;
+    opacity: .75;
+}
+
+.form-container form {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    height: 300px;
+}
+
+.form-container input, .form-container textarea {
+    width: 400px;
+    display: block;
+    border: none;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #8C2727;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+.form-container textarea {
+    height: 120px;
+}
+
+.form-container input::placeholder, 
+.form-container textarea::placeholder {
+    font-size: 14px;
+    color: #8C2727;
+}
+
+.form-container .submit {
+    background-color: #8C2727;
+    color: #F2F2F2;
+    width: 100px;
+    position: relative;
+    float: right;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.form-container .submit:hover {
+    background-color: #F2F2F2;
+    color: #262625;
+    border: 1px solid #8C2727;
+}
+
+
+/*=========================================*/
+
